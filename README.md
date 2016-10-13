@@ -30,7 +30,7 @@ git clone https://github.com/[username]/oca.git
 git remote add upstream https://github.com/MallorcaRocks/oca.git
 git checkout -b [oca-username]
 
-# Commit on your branch (own test Chapters)
+# --> IMPORTANT : Commit on your branch (own test Chapters) <--
 git checkout [oca-username] && git add --ignore-removal --all && git commit -m "new example"
 
 # Commit on master (general purpose)
